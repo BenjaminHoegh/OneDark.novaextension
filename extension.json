@@ -4,5 +4,9 @@
   "vendor": "Benjamin Høegh",
   "description": "Atom One Dark theme for Nova.",
   "version": "1.0",
+  "bugs": "https://github.com/BenjaminHoegh/OneDark.novaextension/issues",
+  "repository": "https://github.com/BenjaminHoegh/OneDark.novaextension",
+  "keywords": ["dark", "atom"],
+  "license": "MIT",
   "categories": ["themes"]
 }
