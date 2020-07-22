@@ -1,6 +1,6 @@
 # Atom One Dark theme for Nova
 
-![alt text](preview.png)
+![alt text](https://github.com/BenjaminHoegh/OneDark.novaextension/blob/master/preview.png)
 
 
 ## Instructions
