@@ -138,15 +138,9 @@ link {
 }
 
 /* Values */
-value.boolean {
-  color: #d0996a;
-}
-value.null {
-  color: #d0996a;
-}
-value.number {
-  color: #d0996a;
-}
+value.boolean,
+value.null,
+value.number,
 value.entity {
   color: #d0996a;
 }
@@ -175,15 +169,9 @@ identifier.argument {
 }
 
 /* Strings */
-string {
-  color: #99c27c;
-}
-string.key {
-  color: #99c27c;
-}
-string-template {
-  color: #99c27c;
-}
+string,
+string.key,
+string-template,
 string-template.value {
   color: #99c27c;
 }
@@ -209,7 +197,7 @@ markup.bold {
   font-weight: bold;
 }
 markup.italic {
-  color: #9ecc7a;
+  color: #c678dd;
   font-style: italic;
 }
 markup.strikethrough {
@@ -220,6 +208,24 @@ markup.list.item {
 }
 markup.code {
   color: #98c379;
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+  font-weight: bold;
+  color: #4b6c9e;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+  color: #7cafad;
 }
 
 /* Tags */
@@ -249,12 +255,8 @@ style.selector.element {
 style.selector.identifier.id {
   color: #64afea;
 }
-style.selector.identifier.class {
-  color: #d0996a;
-}
-style.selector.pseudoclass {
-  color: #d0996a;
-}
+style.selector.identifier.class,
+style.selector.pseudoclass,
 style.selector.pseudoelement {
   color: #d0996a;
 }
@@ -273,9 +275,7 @@ style.value.color.hex {
 style.value.keyword {
   color: #6d8eb5;
 }
-style.value.color.named {
-  color: #d0996a;
-}
+style.value.color.named,
 style.operator {
   color: #d0996a;
 }
