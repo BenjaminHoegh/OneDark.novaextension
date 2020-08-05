@@ -1,0 +1,271 @@
+$pink: #C678DD;
+$red: #E06C75;
+$orange: #D19966;
+$yellow: #E5C07B;
+$teal: #98C379;
+$blue: #61AFEE;
+$cyan: #56B6C2;
+$white: #ABB2BF;
+$clay: #6d8eb5;
+$gray: #5C6371;
+$gray-dark: #3B4047;
+$gray-dark-selected: #4E5562;
+
+meta {
+    -theme-interface-style: dark;
+    -theme-vibrancy: none;
+    -theme-accent-color: true;
+}
+
+/*
+* Window styles
+*/
+
+meta.window {
+    background-color: #20242a;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+meta.titlebar {
+    color: #b8c2cc;
+    background: #20242a;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+meta.titlebar.inactive {
+    background-color: #20242a;
+}
+meta.button {
+    background: linear-gradient(#4e5257, #3c3f42);
+    border: linear-gradient(#292c2e, #202224);
+    color: white;
+}
+meta.button.highlighted {
+    background: linear-gradient(#656b70, #53575c);
+    color: white;
+}
+meta.button.selected {
+    color: white;
+}
+meta.button.highlighted.selected {
+    color: white;
+}
+meta.button.disabled {
+    background: linear-gradient(#4e5257, #3c3f42);
+    border: linear-gradient(#292c2e, #202224);
+    color: #666;
+}
+meta.textfield {
+    background-color: #202224;
+    border-color: #17181a;
+}
+meta.accent {
+    color: #36aaf7;
+}
+
+/*
+* Document styles
+*/
+
+meta.document {
+    background-color: #282c33;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+meta.document.button {
+    background: linear-gradient(#3c3f42, #323538);
+    border: linear-gradient(#1c1d1f, #121314);
+}
+meta.document.button.disabled {
+    background: linear-gradient(rgba(50, 52, 56, 0.3), rgba(50, 52, 56, 0.3));
+}
+meta.document.button.highlighted {
+    background: linear-gradient(#53575c, #494e52);
+}
+meta.document.textfield {
+    background-color: #17181a;
+    border-color: #0e0f0f;
+}
+
+/* Text */
+
+meta.text {
+    color: #abb2bf;
+}
+meta.text.invisible {
+    color: #3B4047;
+}
+meta.text.selected {
+    background-color: #3E4452;
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: #2C313B;
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: #3B4047;
+}
+
+/* Gutter */
+meta.gutter {
+    color: $gray-dark;
+}
+meta.gutter.selected {
+    background-color: #333842;
+    color: $gray-dark-selected;
+}
+
+/*
+* Syntax styles
+*/
+
+keyword {
+    color: $pink;
+}
+comment {
+    color: $gray;
+}
+processing {
+    color: #667380;
+}
+declaration {
+    color: $white;
+}
+bracket {
+    color: $white;
+}
+operator {
+    color: $pink;
+}
+invalid {
+    background-color: #f52c3d;
+    color: #f7f7f0;
+}
+link {
+    color: $cyan;
+}
+
+/* Values */
+value.boolean,
+value.null,
+value.number,
+value.entity {
+    color: $orange;
+}
+
+value.symbol {
+    color: #66b3ff;
+}
+
+/* Identifiers */
+identifier.type {
+    color: #d6b479;
+}
+
+identifier.global,
+identifier.variable,
+identifier.property,
+identifier.argument {
+    color: $red;
+}
+
+identifier.decorator,
+identifier.method {
+    color: #65b0ec;
+}
+
+identifier.function,
+identifier.core.function {
+    color: #56b6c2;
+}
+
+
+
+
+/* Strings */
+regex,
+string,
+string.key,
+string-template,
+string-template.value {
+    color: #99c27c;
+}
+
+string.double-quoted.escape,
+string.single-quoted.escape,
+regex.escaped {
+    color: #56b6c2;
+}
+
+cdata {
+    color: #66b3ff;
+}
+
+/* Markup */
+markup.heading {
+    color: #e06c75;
+}
+markup.line {
+    color: #bfbf60;
+}
+markup.bold {
+    color: #d19966;
+    font-weight: bold;
+}
+markup.italic {
+    color: #c678dd;
+    font-style: italic;
+}
+markup.strikethrough {
+    color: #ff6666;
+}
+markup.list.item {
+    color: #dd6d77;
+}
+markup.code {
+    color: #98c379;
+}
+
+/* Styles */
+
+style.at,
+style.selector.separator,
+style.value.keyword.important,
+style.value.keyword.default,
+style.selector {
+    color: $pink;
+}
+
+style.value.number,
+style.value.color.named,
+style.selector.pseudoclass,
+style.selector.pseudoelement,
+style.selector.attribute.name,
+style.selector.operator,
+style.selector.attribute.single,
+style.selector.identifier.class {
+    color: $orange;
+}
+
+style.selector.identifier.id {
+    color: $blue;
+}
+
+style.value.color.hex {
+    color: $cyan;
+}
+style.attribute.identifier.variable,
+style.selector.attribute.pseudoclass,
+style.selector.attribute.pseudoelement,
+style.attribute.identifier.name,
+style.selector.element {
+    color: $red;
+}
+
+style.value,
+style.attribute.name,
+style.value.bracket {
+    color: $white;
+}
+
+

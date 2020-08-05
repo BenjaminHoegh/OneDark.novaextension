@@ -1,3 +1,11 @@
+## Version 1.5
+- Corrected the colors of functions
+- Corrected the colors of variables
+- Corrected the colors of escaped
+- Corrected the colors of CSS separators
+- Corrected the colors of CSS `!important` and `!default`
+- And more...
+
 ## Version 1.4
 - Changed UI Color.
 - CSS functions now get the right color.
