@@ -88,42 +88,42 @@ meta.text {
 }
 
 meta.text.invisible {
-  color: #3B4047;
+  color: #3b4047;
 }
 
 meta.text.selected {
-  background-color: #3E4452;
+  background-color: #3e4452;
 }
 
 /* Cursor */
 meta.cursor {
-  background-color: #2C313B;
+  background-color: #2c313b;
 }
 
 /* Indentation Guides */
 meta.indentguide {
-  border-color: #3B4047;
+  border-color: #3b4047;
 }
 
 /* Gutter */
 meta.gutter {
-  color: #3B4047;
+  color: #3b4047;
 }
 
 meta.gutter.selected {
   background-color: #333842;
-  color: #4E5562;
+  color: #4e5562;
 }
 
 /*
 * Syntax styles
 */
 keyword {
-  color: #C678DD;
+  color: #c678dd;
 }
 
 comment {
-  color: #5C6371;
+  color: #5c6371;
 }
 
 processing {
@@ -131,15 +131,15 @@ processing {
 }
 
 declaration {
-  color: #ABB2BF;
+  color: #abb2bf;
 }
 
 bracket {
-  color: #ABB2BF;
+  color: #abb2bf;
 }
 
 operator {
-  color: #C678DD;
+  color: #c678dd;
 }
 
 invalid {
@@ -148,7 +148,7 @@ invalid {
 }
 
 link {
-  color: #56B6C2;
+  color: #56b6c2;
 }
 
 /* Values */
@@ -156,11 +156,11 @@ value.boolean,
 value.null,
 value.number,
 value.entity {
-  color: #D19966;
+  color: #d19966;
 }
 
 value.symbol {
-  color: #61AFEE;
+  color: #61afee;
 }
 
 /* Identifiers */
@@ -172,17 +172,17 @@ identifier.global,
 identifier.variable,
 identifier.property,
 identifier.argument {
-  color: #E06C75;
+  color: #e06c75;
 }
 
 identifier.decorator,
 identifier.method {
-  color: #61AFEE;
+  color: #61afee;
 }
 
 identifier.function,
 identifier.core.function {
-  color: #56B6C2;
+  color: #56b6c2;
 }
 
 /* Strings */
@@ -196,16 +196,16 @@ string-template.value {
 string.double-quoted.escape,
 string.single-quoted.escape,
 regex.escaped {
-  color: #56B6C2;
+  color: #56b6c2;
 }
 
 cdata {
-  color: #61AFEE;
+  color: #61afee;
 }
 
 /* Markup */
 markup.heading {
-  color: #E06C75;
+  color: #e06c75;
 }
 
 markup.line {
@@ -213,12 +213,12 @@ markup.line {
 }
 
 markup.bold {
-  color: #D19966;
+  color: #d19966;
   font-weight: bold;
 }
 
 markup.italic {
-  color: #C678DD;
+  color: #c678dd;
   font-style: italic;
 }
 
@@ -242,35 +242,35 @@ definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
   font-weight: bold;
-  color: #61AFEE;
+  color: #61afee;
 }
 
 /* Members */
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-  color: #56B6C2;
+  color: #56b6c2;
 }
 
 /* Tags */
 tag {
-  color: #E06C75;
+  color: #e06c75;
 }
 
 tag.framework {
-  color: #BE5046;
+  color: #be5046;
 }
 
 tag.attribute.name {
-  color: #D19966;
+  color: #d19966;
 }
 
 tag.attribute.value {
-  color: #98C379;
+  color: #98c379;
 }
 
 tag.attribute.value.link {
-  color: #56B6C2;
+  color: #56b6c2;
   text-decoration: underline;
 }
 
@@ -280,7 +280,7 @@ style.selector.separator,
 style.value.keyword.important,
 style.value.keyword.default,
 style.selector {
-  color: #C678DD;
+  color: #c678dd;
 }
 
 style.value.number,
@@ -291,15 +291,15 @@ style.selector.attribute.name,
 style.selector.operator,
 style.selector.attribute.single,
 style.selector.identifier.class {
-  color: #D19966;
+  color: #d19966;
 }
 
 style.selector.identifier.id {
-  color: #61AFEE;
+  color: #61afee;
 }
 
 style.value.color.hex {
-  color: #56B6C2;
+  color: #56b6c2;
 }
 
 style.selector.attribute.pseudoclass,
@@ -307,45 +307,45 @@ style.selector.attribute.pseudoelement,
 style.attribute.identifier.name,
 style.value.identifier.variable,
 style.selector.element {
-  color: #E06C75;
+  color: #e06c75;
 }
 
 style.value,
 style.attribute.name,
 style.value.bracket {
-  color: #ABB2BF;
+  color: #abb2bf;
 }
 
 /* Python */
 python.identifier.argument.name {
-  color: #D19966;
+  color: #d19966;
 }
 
 /* Terminal */
 terminal.red {
-  color: #E06C75;
+  color: #e06c75;
 }
 
 terminal.green {
-  color: #98C379;
+  color: #98c379;
 }
 
 terminal.yellow {
-  color: #E5C07B;
+  color: #e5c07b;
 }
 
 terminal.blue {
-  color: #61AFEE;
+  color: #61afee;
 }
 
 terminal.magenta {
-  color: #C678DD;
+  color: #c678dd;
 }
 
 terminal.cyan {
-  color: #56B6C2;
+  color: #56b6c2;
 }
 
 terminal.white {
-  color: #ABB2BF;
+  color: #abb2bf;
 }

@@ -1,13 +1,16 @@
 ## Version 1.6.1
+
 - Fixed issue with extension.png
 
 ## Version 1.6
+
 - Corrected colors of css/scss variables.
-- Added Termanal theme
+- Added Terminal theme
 - Fixed issue resolved in missing highlighting for HTML inside a PHP file
 - Support for XML/plist
 
 ## Version 1.5
+
 - Corrected the colors of functions
 - Corrected the colors of variables
 - Corrected the colors of escaped
@@ -16,12 +19,12 @@
 - And more...
 
 ## Version 1.4
+
 - Changed UI Color.
 - CSS functions now get the right color.
 - CSS attribute selector now have colors.
 - Invisible characters now have the right color.
 - Gutters now have the right color.
-
 
 ## Version 1.0
 
