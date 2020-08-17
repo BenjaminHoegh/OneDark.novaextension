@@ -5,6 +5,7 @@
 - Corrected colors of css/scss variables.
 - Added Termanal theme
 - Fixed issue resolved in missing highlighting for HTML inside a PHP file
+- Support for XML/plist
 
 ## Version 1.5
 - Corrected the colors of functions
