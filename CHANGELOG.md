@@ -1,3 +1,6 @@
+## Version 1.6.1
+- Fixed issue with extension.png
+
 ## Version 1.6
 - Corrected colors of css/scss variables.
 - Added Termanal theme
