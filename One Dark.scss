@@ -1,8 +1,9 @@
-$pink: #C678DD;
+$magenta: #C678DD;
 $red: #E06C75;
+$red-dark: #BE5046;
 $orange: #D19966;
 $yellow: #E5C07B;
-$teal: #98C379;
+$green: #98C379;
 $blue: #61AFEE;
 $cyan: #56B6C2;
 $white: #ABB2BF;
@@ -120,7 +121,7 @@ meta.gutter.selected {
 */
 
 keyword {
-    color: $pink;
+    color: $magenta;
 }
 comment {
     color: $gray;
@@ -135,7 +136,7 @@ bracket {
     color: $white;
 }
 operator {
-    color: $pink;
+    color: $magenta;
 }
 invalid {
     background-color: #f52c3d;
@@ -154,7 +155,7 @@ value.entity {
 }
 
 value.symbol {
-    color: #66b3ff;
+    color: $blue;
 }
 
 /* Identifiers */
@@ -171,19 +172,18 @@ identifier.argument {
 
 identifier.decorator,
 identifier.method {
-    color: #65b0ec;
+    color: $blue;
 }
 
 identifier.function,
 identifier.core.function {
-    color: #56b6c2;
+    color: $cyan;
 }
 
 
 
 
 /* Strings */
-regex,
 string,
 string.key,
 string-template,
@@ -194,26 +194,26 @@ string-template.value {
 string.double-quoted.escape,
 string.single-quoted.escape,
 regex.escaped {
-    color: #56b6c2;
+    color: $cyan;
 }
 
 cdata {
-    color: #66b3ff;
+    color: $blue;
 }
 
 /* Markup */
 markup.heading {
-    color: #e06c75;
+    color: $red;
 }
 markup.line {
     color: #bfbf60;
 }
 markup.bold {
-    color: #d19966;
+    color: $orange;
     font-weight: bold;
 }
 markup.italic {
-    color: #c678dd;
+    color: $magenta;
     font-style: italic;
 }
 markup.strikethrough {
@@ -226,6 +226,45 @@ markup.code {
     color: #98c379;
 }
 
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    font-weight: bold;
+    color: $blue;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    color: $cyan;
+}
+
+/* Tags */
+tag {
+    color: $red;
+}
+tag.framework {
+    color: $red-dark;
+}
+tag.attribute.name {
+    color: $orange;
+}
+tag.attribute.value {
+    color: $green;
+}
+tag.attribute.value.link {
+    color: $cyan;
+    text-decoration: underline;
+}
+
+
+
 /* Styles */
 
 style.at,
@@ -233,7 +272,7 @@ style.selector.separator,
 style.value.keyword.important,
 style.value.keyword.default,
 style.selector {
-    color: $pink;
+    color: $magenta;
 }
 
 style.value.number,
@@ -254,10 +293,11 @@ style.selector.identifier.id {
 style.value.color.hex {
     color: $cyan;
 }
-style.attribute.identifier.variable,
+
 style.selector.attribute.pseudoclass,
 style.selector.attribute.pseudoelement,
 style.attribute.identifier.name,
+style.value.identifier.variable,
 style.selector.element {
     color: $red;
 }
@@ -269,3 +309,32 @@ style.value.bracket {
 }
 
 
+/* Python */
+
+python.identifier.argument.name {
+    color: $orange;
+}
+
+
+/* Terminal */
+terminal.red {
+    color: $red;
+}
+terminal.green {
+    color: $green;
+}
+terminal.yellow {
+    color: $yellow;
+}
+terminal.blue {
+    color: $blue;
+}
+terminal.magenta {
+    color: $magenta;
+}
+terminal.cyan {
+    color: $cyan;
+}
+terminal.white {
+    color: $white;
+}
