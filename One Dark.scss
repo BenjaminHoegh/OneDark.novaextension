@@ -9,8 +9,8 @@ $cyan: #56b6c2;
 $white: #abb2bf;
 $clay: #6d8eb5;
 $gray: #5c6371;
-$gray-dark: #3b4047;
 $gray-dark-selected: #4e5562;
+$gray-dark: #3b4047;
 
 meta {
   -theme-interface-style: dark;
@@ -35,33 +35,32 @@ meta.titlebar.inactive {
   background-color: #20242a;
 }
 meta.button {
-  background: linear-gradient(#4e5257, #3c3f42);
-  border: linear-gradient(#292c2e, #202224);
-  color: white;
+  background-color: #363C46;
+  border-color: #17191E;
+  color: #9DA5B4;
 }
 meta.button.highlighted {
-  background: linear-gradient(#656b70, #53575c);
-  color: white;
+  background-color: #2C3139;
 }
 meta.button.selected {
-  color: white;
+  color: #D7DAE0;
 }
 meta.button.highlighted.selected {
-  color: white;
+  color: #D7DAE0;
 }
 meta.button.disabled {
-  background: linear-gradient(#4e5257, #3c3f42);
-  border: linear-gradient(#292c2e, #202224);
-  color: #666;
+  background-color: #30353F;
+  color: #717784;
+
 }
 meta.textfield {
-  background-color: #202224;
-  border-color: #17181a;
+  background-color: #1A1C22;
+  border-color: #17191E;
 }
-meta.accent {
-  color: #36aaf7;
+meta.textfield.active {
+  background-color: #202633;
+  border-color: #568AF2;
 }
-
 /*
 * Document styles
 */
