@@ -1,7 +1,7 @@
 {
   "identifier": "benjaminhoegh.OneDark",
   "name": "One Dark",
-  "vendor": "Benjamin Høegh",
+  "organization": "Benjamin Høegh",
   "description": "Atom One Dark theme for Nova.",
   "version": "1.6.3",
   "bugs": "https://github.com/BenjaminHoegh/OneDark.novaextension/issues",
