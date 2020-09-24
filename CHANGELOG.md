@@ -1,3 +1,9 @@
+## Version 1.6.3
+
+- Added new preview image in readme.
+- Changed the style of buttons to match Atom Dark One
+- Small change to extension.png
+
 ## Version 1.6.1
 
 - Fixed issue with extension.png
