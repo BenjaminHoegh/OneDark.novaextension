@@ -4,7 +4,7 @@
 <!-- Shields -->
 
 <p align="center">
-  <img align="center" src="https://github.com/BenjaminHoegh/OneDark.novaextension/raw/master/Images/one-dark-preview.png)" alt="One Dark theme screenshot">
+  <img align="center" src="https://github.com/BenjaminHoegh/OneDark.novaextension/raw/master/Images/one-dark-preview.png" alt="One Dark theme screenshot">
 </p>
 
 <hr>
