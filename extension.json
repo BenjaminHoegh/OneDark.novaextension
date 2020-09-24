@@ -3,7 +3,7 @@
   "name": "One Dark",
   "vendor": "Benjamin Høegh",
   "description": "Atom One Dark theme for Nova.",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "bugs": "https://github.com/BenjaminHoegh/OneDark.novaextension/issues",
   "repository": "https://github.com/BenjaminHoegh/OneDark.novaextension",
   "keywords": ["dark", "atom"],
