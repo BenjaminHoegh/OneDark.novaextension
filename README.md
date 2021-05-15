@@ -21,3 +21,4 @@
 ## Disclaimer
 
 [Nova](https://panic.com/nova) is a editor made by [Panic Inc](https://panic.com).
+[One Dark](https://atom.io/themes/one-dark-syntax) is a theme originally made by [Github Atom Team](https://atom.io).

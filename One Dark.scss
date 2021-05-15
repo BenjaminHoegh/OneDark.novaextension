@@ -35,31 +35,30 @@ meta.titlebar.inactive {
   background-color: #20242a;
 }
 meta.button {
-  background-color: #363C46;
-  border-color: #17191E;
-  color: #9DA5B4;
+  background-color: #363c46;
+  border-color: #17191e;
+  color: #9da5b4;
 }
 meta.button.highlighted {
-  background-color: #2C3139;
+  background-color: #2c3139;
 }
 meta.button.selected {
-  color: #D7DAE0;
+  color: #d7dae0;
 }
 meta.button.highlighted.selected {
-  color: #D7DAE0;
+  color: #d7dae0;
 }
 meta.button.disabled {
-  background-color: #30353F;
+  background-color: #30353f;
   color: #717784;
-
 }
 meta.textfield {
-  background-color: #1A1C22;
-  border-color: #17191E;
+  background-color: #1a1c22;
+  border-color: #17191e;
 }
 meta.textfield.active {
   background-color: #202633;
-  border-color: #568AF2;
+  border-color: #568af2;
 }
 /*
 * Document styles
@@ -78,6 +77,9 @@ meta.document.button.disabled {
 }
 meta.document.button.highlighted {
   background: linear-gradient(#53575c, #494e52);
+}
+meta.document.button.selected {
+  background-color: lighten(#323438, 7%);
 }
 meta.document.textfield {
   background-color: #17181a;
@@ -122,6 +124,11 @@ meta.gutter.selected {
 keyword {
   color: $magenta;
 }
+
+keyword.magic {
+  color: $orange;
+}
+
 comment {
   color: $gray;
 }
@@ -191,6 +198,10 @@ string.double-quoted.escape,
 string.single-quoted.escape,
 regex.escaped {
   color: $cyan;
+}
+
+string-template.expression {
+  color: $red;
 }
 
 cdata {
@@ -328,4 +339,58 @@ terminal.cyan {
 }
 terminal.white {
   color: $white;
+}
+
+
+/*********************
+* advanced PHP
+*********************/
+
+advphp.static.processor {
+  color: $cyan;
+}
+
+advphp.identifier.object.name,
+advphp.static.constant {
+  color: $yellow;
+}
+
+advphp.static.condition,
+advphp.static.declaration,
+advphp.static.import,
+advphp.static.wordOperator,
+advphp.sql.keywords {
+  color: $magenta;
+}
+
+
+advphp.operator,
+advphp.bracket,
+advphp.delimiter,
+advphp.semicolon {
+  color: $white;
+}
+
+advphp.identifier.variable.prefix,
+advphp.identifier.variable.name,
+advphp.identifier.variable.this,
+advphp.identifier.parameter.prefix,
+advphp.identifier.parameter.name {
+  color: $red;
+}
+
+
+advphp.identifier.function.keyword {
+  color: $magenta;
+}
+advphp.identifier.function.name {
+  color: $blue;
+}
+
+advphp.string,
+advphp.value.string,
+advphp.string.doubleQuote,
+advphp.string.singleQuote,
+advphp.string.backTic {
+    color: $green;
 }

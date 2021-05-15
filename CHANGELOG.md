@@ -1,3 +1,15 @@
+## Version 1.7
+- Fixed issue resolving in PHP variables in strings didn't get highlighted
+- First attempt to add Advanced PHP support
+
+## Version 1.6.5
+
+- New theme icon
+
+## Version 1.6.4
+
+- Made it easier to see what buttons are activated in the search field
+
 ## Version 1.6.3
 
 - Added new preview image in readme.
